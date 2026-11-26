@@ -87,8 +87,8 @@ return (
       />
       </p>
       <button onClick={() => setBrightness(Math.max(0, Number(brightnessInput)) || 0)} disabled={!imgUrl} 
-      className="rounded-md w-20 text-xs hover:bg-gray-50 h-10
-      disabled:bg-gray-100 disabled:text-gray-400
+      className="rounded-md w-20 text-xs border-2 hover:bg-gray-50 h-10
+      disabled:bg-gray-100 disabled:text-gray-400 disabled:border-0 
       ">적용</button>
     </div>
 
